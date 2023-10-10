@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    background: linear-gradient(60deg,#03876e,#038e70);
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(137, 238, 202);
+}
+
+.container{
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cube, .cuboid{
+      padding: 20px;
+      margin: 20px;
+      width: 200px;
+}
+input{
+    margin: 10px;
+    
+}

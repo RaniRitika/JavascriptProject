@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Finder</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function vcube()
+    {
+        let l = document.getElementById("cubelen").value;
+        let volume = l*l*l;
+        document.getElementById("rescube").innerHTML="Volume is: "+volume;   
+    }
+    function vcuboid()
+    {
+        let l =document.getElementById("length").value;
+        let w =document.getElementById("width").value;
+        let h =document.getElementById("heigth").value;
+        let volume= l*w*h;
+        document.getElementById("rescuboid").innerHTML="Volume: "+volume;
+    }
+       </script>
+</head>
+<body>
+    <header>
+        <h2> <strong>Volume Finder</strong> </h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="cube">
+                <h3>CUBE</h3>
+                <br>
+                <label for="name">Length: </label>
+                <input type="text" placeholder="0" name="Length" id="cubelen">
+                <button onclick="vcube()">Volume</button>
+                <div id="rescube"></div>
+            </div>
+
+            <div class="cuboid">
+                <h3>CUBOID</h3>
+                <br>
+                <label for="">Length: </label>
+                <input type="text" placeholder="0" id="length">
+                <label for="">width: </label>
+                <input type="text" placeholder="0" id="width">
+                <label for="">Height: </label>
+                <input type="text" placeholder="0" id="heigth">
+                <button onclick="vcuboid()" >Volume</button>
+                <div id="rescuboid"></div>
+            </div>
+   
+        </div>
+        <!-- <script src="./script.js"></script> -->
+    </main>
+   
+</body>
+</html>
