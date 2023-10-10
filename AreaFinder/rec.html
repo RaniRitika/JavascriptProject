@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rectangle</title>
+    <link rel="stylesheet" href="./recarea.css">
+</head>
+<body>
+    <header>
+        <h1> <em> Area Finding Application</em> </h1>
+    </header>
+    <main>
+        <!-- rectangle area -->
+        <label for="Name">Length of Rectangle:</label>
+        <input type="text" name="length" id="len">
+        <label for="Name">Width of rectangle:</label>
+        <input type="text" name="width" id="wid">
+        <button class="Area" onclick="recarea()">Area</button>
+        <div id="resrec"></div>
+        <!-- square area -->
+        <label for="Name">Side of Square:</label>
+        <input type="text" name="width" id="side">
+        <button class="Area" onclick="sqarea()">Area</button>
+        <div id="resqu"></div>
+
+        <!-- circle area -->
+        <label for="Name">Radius of Circle:</label>
+        <input type="text" name="width" id="radius">
+        <button class="Area" onclick="cirarea()">Area</button>
+        <div id="rescir"></div>
+    
+   <script src="./recfun.js"></script>
+   </main>
+   
+   
+</body>
+</html>

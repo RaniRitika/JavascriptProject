@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(242, 217, 188);
+    margin: 0px;
+}
+header{
+    text-align: center;
+    color: rgb(35, 116, 182);
+    padding: 20px;
+    text-decoration: underline;
+}
+input,div,button{
+    padding: 5px;
+    margin: 10px;
+}
+main{
+    text-align: center;
+    color: rgb(35, 116, 182);
+    font-weight: 800;
+}
+button{
+    width: 70px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(163, 210, 248);
+}
